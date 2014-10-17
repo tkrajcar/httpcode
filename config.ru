@@ -8,7 +8,7 @@ run Proc.new { |env|
     [
       status_code,
       {},
-      [status_code]
+      [status_code.to_s]
     ]
   end
 }
